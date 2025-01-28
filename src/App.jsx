@@ -1,9 +1,10 @@
-import './App.css';
 import Main from './pages/main';
+import GlobalStyle from './styles/GlobalStyle';
 
 function App() {
     return (
         <>
+            <GlobalStyle />
             <Main />
         </>
     );

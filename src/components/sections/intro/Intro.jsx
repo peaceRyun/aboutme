@@ -1,9 +1,15 @@
+import { Section } from '../../common/style';
+import { Sent, Title } from './style';
+
 const Intro = () => {
     return (
         <>
-            <section>
-                <h2>웹 프론트엔드 포트폴리오</h2>
-            </section>
+            <Section>
+                <Title>
+                    <Sent>웹 프론트엔드</Sent>
+                    <Sent>포트폴리오</Sent>
+                </Title>
+            </Section>
         </>
     );
 };

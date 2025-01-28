@@ -2,6 +2,16 @@ import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
 
 const GlobalStyle = createGlobalStyle`
+:root {
+  /* Colors */
+  --color-primary: #033E8C;
+  --color-background: #011126;
+  /* Breakpoints */
+  --bp-mobile: 320px;
+  --bp-tablet: 768px;
+  --bp-laptop: 1024px;
+  --bp-desktop: 1440px;
+}
   ${reset}
   /* reset */
   body,
@@ -35,6 +45,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Pretendard', sans-serif;
   }
 
   fieldset,
@@ -99,7 +110,6 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-size: 16px;
     line-height: 1.6;
-    font-family: 'Noto Sans KR', sans-serif;
     color: #333;
     -webkit-text-size-adjust: none;
   }
