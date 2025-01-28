@@ -13,12 +13,19 @@ export const Cont = styled.div`
     max-width: var(--bp-laptop);
     margin: 0 auto;
     display: flex;
+    flex-direction: ${(props) => props.flexDir && 'column'};
     gap: 0.4rem;
 `;
 
 export const FlexCol = styled.div`
     display: flex;
     flex-direction: column;
+    gap: 0.4rem;
+    flex: 1;
+`;
+
+export const FlexRow = styled.div`
+    display: flex;
     gap: 0.4rem;
     flex: 1;
 `;

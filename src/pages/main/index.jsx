@@ -1,4 +1,5 @@
 import About from '../../components/sections/about/About';
+import Career from '../../components/sections/career/Career';
 import Intro from '../../components/sections/intro/Intro';
 
 const Main = () => {
@@ -6,6 +7,7 @@ const Main = () => {
         <>
             <Intro />
             <About />
+            <Career />
         </>
     );
 };

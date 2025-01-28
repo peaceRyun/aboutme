@@ -1,5 +1,5 @@
 import { Cont, FlexCol, Section } from '../../common/style';
-import { Agap, Qgap } from './style';
+import { Agap, ImageWrap, Qgap } from './style';
 
 const About = () => {
     return (
@@ -40,7 +40,9 @@ const About = () => {
                         </Agap>
                     </FlexCol>
                     <FlexCol>
-                        <img src='public/img-my-photo-01.png' alt='demoimg1' />
+                        <ImageWrap>
+                            <img src='public/img-my-photo-01.png' alt='demoimg1' />
+                        </ImageWrap>
                     </FlexCol>
                 </Cont>
             </Section>
